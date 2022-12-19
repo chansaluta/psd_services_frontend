@@ -58,6 +58,7 @@ import ThemeColorPresets from '../components/ThemeColorPresets';
 import NotistackProvider from '../components/NotistackProvider';
 import ThemeLocalization from '../components/ThemeLocalization';
 import MotionLazyContainer from '../components/animate/MotionLazyContainer';
+import '../../public/css/global.css'
 
 // Check our docs
 // https://docs-minimals.vercel.app/authentication/ts-version
