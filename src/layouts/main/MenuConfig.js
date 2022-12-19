@@ -12,6 +12,8 @@ const ICON_SIZE = {
   height: 22,
 };
 
+
+
 const menuConfig = [
   {
     title: 'Home',
@@ -19,74 +21,35 @@ const menuConfig = [
     path: '/',
   },
   {
-    title: 'City Info',
-    path: '/pages',
-    icon: <Iconify icon={'eva:file-fill'} {...ICON_SIZE} />,
-    children: [
-      {
-        subheader: 'Other',
-        items: [
-          { title: 'About us', path: PATH_PAGE.about },
-          { title: 'Contact us', path: PATH_PAGE.contact },
-          { title: 'FAQs', path: PATH_PAGE.faqs },
-          { title: 'Pricing', path: PATH_PAGE.pricing },
-          { title: 'Payment', path: PATH_PAGE.payment },
-          { title: 'Maintenance', path: PATH_PAGE.maintenance },
-          { title: 'Coming Soon', path: PATH_PAGE.comingSoon },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'Services',
-    path: '/pages',
-    icon: <Iconify icon={'eva:file-fill'} {...ICON_SIZE} />,
-    children: [
-      {
-        subheader: 'Other',
-        items: [
-          { title: 'About us', path: PATH_PAGE.about },
-          { title: 'Contact us', path: PATH_PAGE.contact },
-          { title: 'FAQs', path: PATH_PAGE.faqs },
-          { title: 'Pricing', path: PATH_PAGE.pricing },
-          { title: 'Payment', path: PATH_PAGE.payment },
-          { title: 'Maintenance', path: PATH_PAGE.maintenance },
-          { title: 'Coming Soon', path: PATH_PAGE.comingSoon },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'Business',
-    path: '/pages',
-    icon: <Iconify icon={'eva:file-fill'} {...ICON_SIZE} />,
-    children: [
-      {
-        subheader: 'Other',
-        items: [
-          { title: 'About us', path: PATH_PAGE.about },
-          { title: 'Contact us', path: PATH_PAGE.contact },
-          { title: 'FAQs', path: PATH_PAGE.faqs },
-          { title: 'Pricing', path: PATH_PAGE.pricing },
-          { title: 'Payment', path: PATH_PAGE.payment },
-          { title: 'Maintenance', path: PATH_PAGE.maintenance },
-          { title: 'Coming Soon', path: PATH_PAGE.comingSoon },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'Publications',
+    title: 'Targets',
     icon: <Iconify icon={'eva:book-open-fill'} {...ICON_SIZE} />,
     path: PATH_DOCS,
   },
+  {
+    title: 'Accomplishments',
+    path: '#',
+    icon: <Iconify icon={'eva:file-fill'} {...ICON_SIZE} />,
+  
+    children: [
+      {
+        subheader: 'Division Accomplishment',
+        items: [
+          { title: 'Programs', path: '#' },
+          { title: 'Contact us', path: '#' },
+        ],
+      },
+    ],
+  },
+
+ 
+
   {
     title: 'GAD',
     icon: <Iconify icon={'eva:book-open-fill'} {...ICON_SIZE} />,
     path: PATH_DOCS,
   },
   {
-    title: 'Full Disclosure',
+    title: 'Gallery',
     icon: <Iconify icon={'eva:book-open-fill'} {...ICON_SIZE} />,
     path: PATH_DOCS,
   },

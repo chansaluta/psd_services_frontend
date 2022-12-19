@@ -76,33 +76,28 @@ export default function HomeHero() {
       <RootStyle>
         <HeroOverlayStyle
           alt="overlay"
-          src="/images/bg_image.jpeg"
+          src="/images/123.jpg"
           variants={varFade().in}
         />
 
-        <HeroOverlayStyle
-          alt="overlay"
-          src="https://minimals.cc/assets/overlay.svg"
-          variants={varFade().in}
-        />
+      
 
         <Container>
           <ContentStyle>
             <Grid container spacing={3}>
               <Grid item md={6}>
                 <m.div variants={varFade().inRight} style={{ marginTop: '100px' }}>
-                  <Typography variant="h1" sx={{ color: 'common.white' }}>
-                    The City <br />
-                    Government <br /> of
+                  <Typography variant="h2" sx={{ color: 'common.white' }}>
+                   DSWD Caraga Protective Services Division <br/>
                     <Typography component="span" variant="h1" sx={{ color: 'primary.main' }}>
-                      &nbsp;PILAR
+                      Programs and Services
                     </Typography>
                   </Typography>
                 </m.div>
 
                 <m.div variants={varFade().inRight} style={{ marginTop: '20px' }}>
                   <Typography sx={{ color: 'common.white' }}>
-                    This is the Official Website of the City Government of PILAR, SDN.
+                    This is the Official Website of the DSWD Caraga Protective Services Division
                   </Typography>
                 </m.div>
 
@@ -117,13 +112,7 @@ export default function HomeHero() {
                   </NextLink>
                 </m.div>
               </Grid>
-              <Grid item md={6}>
-                <img
-                  style={{ margin: 'auto', display: 'block' }}
-                  height={500}
-                  src='./images/government_building.png'
-                />
-              </Grid>
+             
             </Grid>
           </ContentStyle>
         </Container>

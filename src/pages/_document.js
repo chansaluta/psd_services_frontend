@@ -40,7 +40,7 @@ export default class MyDocument extends Document {
           <meta name="keywords" content="react,material,kit,application,dashboard,admin,template" />
           <meta name="author" content="Minimal UI Kit" />
 
-          <title>PHRISM</title>
+          <title>PSD Services</title>
 
         </Head>
 
