@@ -10,20 +10,20 @@ import { MotionViewport, varFade } from '../../components/animate';
 
 const CARDS = [
   {
-    icon: 'https://minimal-assets-api.vercel.app/assets/icons/ic_design.svg',
-    title: 'UI & UX Design',
+    icon: '/images/target.png',
+    title: 'Mission Statement',
     description:
-      'The set is built on the principles of the atomic design system. It helps you to create projects fastest and easily customized packages for your projects.',
+      'To lead in the formulation, implementation, and coordination of social welfare and development policies and programs for and with the poor, vulnerable and disadvantaged.',
   },
   {
     icon: 'https://minimal-assets-api.vercel.app/assets/icons/ic_code.svg',
-    title: 'Development',
-    description: 'Easy to customize and extend each component, saving you time and money.',
+    title: 'Protective Services Division',
+    description: 'Divisions ',
   },
   {
-    icon: '/logo/logo_single.svg',
-    title: 'Branding',
-    description: 'Consistent design in colors, fonts ... makes brand recognition easy.',
+    icon: '/images/vision.png',
+    title: 'Vision Statement',
+    description: 'The Department of Social Welfare and Development envisions all Filipinos free from hunger and poverty, have equal access to opportunities, enabled by a fair, just and peaceful society.',
   },
 ];
 
@@ -100,11 +100,11 @@ export default function HomeMinimal() {
         >
           <m.div variants={varFade().inUp}>
             <Typography component="div" variant="overline" sx={{ mb: 2, color: 'text.disabled' }}>
-              Minimal
+              Department of Social Welfare and Development
             </Typography>
           </m.div>
           <m.div variants={varFade().inDown}>
-            <Typography variant="h2">What minimal helps you?</Typography>
+            <Typography variant="h2">REGION XIII (CARAGA)</Typography>
           </m.div>
         </Box>
 

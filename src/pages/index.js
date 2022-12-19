@@ -39,7 +39,7 @@ HomePage.getLayout = function getLayout(page) {
 
 export default function HomePage() {
   return (
-    <Page title="PHRISM">
+    <Page title="Home">
       <RootStyle>
         <HomeHero />
         <ContentStyle>
